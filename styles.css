@@ -1,7 +1,8 @@
 * {
-  margin:0px;
+  margin: 0px;
   padding:0px;
 }
+/* the above code resets default padding and margin values */
 
 #octocat {
   display: block;
@@ -9,9 +10,20 @@
   margin: 50px auto;
 }
 
+/*the above code is applicable for the octocat class */
+
 p {
   display: block;
   width: 400px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",sans-serif;
 }
+
+/* list of fall back fonts should end with serif or sans-serif */
+
+/*the above code is applicable for paragraph*/
+
+body{
+  background-color: coral;
+}
+/* the above code changes the background color of the body */
